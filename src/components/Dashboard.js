@@ -53,12 +53,17 @@ const VerticalSidebar = ({ animation, direction, visible, submitChanges, state, 
          <Form.Input placeholder='Y-axis Title' name='titleYAxis' value={state.titleYAxis} onChange={handleChange} error={state.titleYAxisInvalid}/>
        </Form.Field>
        <Form.Field>
-         <label>Series Value</label>
-         <Form.Input placeholder='eg: 1,2,3<space>4,5,6' name='seriesValue' value={state.seriesValue} onChange={handleChange} error={state.seriesValueInvalid}/>
-       </Form.Field>
-       <Form.Field>
          <label>Legends</label>
          <Form.Input placeholder='legends' name='legends' value={state.legends} onChange={handleChange} error={state.legendsInvalid}/>
+       </Form.Field>
+       <Form.Field>
+         <label>Series Value</label>
+         <Form.Input placeholder='eg: 1,2,3<space>4,5,6' name='seriesValue' value={state.seriesValue} onChange={handleChange} error={state.seriesValueInvalid}/>
+         <div className='_info'>
+           Please enter values equivalent to number of legend(s) <br/>
+           For eg : if number of labels 2 <br/>
+           input : 1,2,3 space 4,5,6
+         </div>
        </Form.Field>
        </div>
         )}
