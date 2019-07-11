@@ -17,7 +17,7 @@ class App extends Component {
           <Header as='h2'>
             <Icon name='chart line' />
             <Header.Content>
-              React Charts Dasboard
+              React Charts Dashboard
               <Header.Subheader className='_white'>Create Rich Animated Charts</Header.Subheader>
             </Header.Content>
           </Header>
