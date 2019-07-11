@@ -1,0 +1,93 @@
+._sideBarDiv{
+  height:87vh;
+}
+
+._newGraphBtn{
+  position:fixed;
+  top:4%;
+  right:1%;
+  z-index: 10000;
+  background: white !important;
+}
+
+._graphDiv{
+  margin-top:0 !important;
+}
+
+._editChartSideBarComponent{
+  width: 32% !important;
+}
+
+._sideBarComponent{
+  width:17% !important;
+}
+
+._sideBarComponent, ._editChartSideBarComponent{
+  padding: 10px;
+  background: white;
+}
+
+
+._graphInnerDiv{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+._chart1{
+  padding:5px;
+}
+
+._editChart{
+  position: absolute;
+  left: 90%;
+  bottom: 0%;
+}
+
+._red{
+  background: #ff4500 !important;
+}
+
+._noColor{
+  background-color: grey;
+}
+
+._white{
+  color:white !important;
+}
+
+.test{
+  width: 49%;
+  margin:0 10px 10px 0;
+}
+
+._editBtn{
+  position: relative;
+  left: 84%;
+}
+
+._info{
+  font-size: 10px;
+  line-height: normal;
+  font-weight: 100;
+}
+
+._submitFromDashboard{
+  margin-top: 10px !important;
+}
+
+._headerClass{
+    height: 100px;
+    padding: 25px;
+    background-color: rgb(190, 196, 255);
+}
+
+._nonRadialSubmitBtn{
+  margin-top:10px;
+}
+
+._deleteBtn{
+    position: relative;
+    left: 50%;
+    background: #ff4500 !important;
+}
