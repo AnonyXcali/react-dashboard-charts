@@ -232,7 +232,6 @@ class Dashboard extends Component {
       }
 
       if((!labels || labels.length <=0) && type === 'pie'){
-        console.log('hey')
         invalidInput.push('labels');
       }
 
@@ -249,7 +248,6 @@ class Dashboard extends Component {
         invalidInput.push('legends');
       }
       if((!seriesValue || seriesValue.length <=0)){
-        console.log('hey')
         invalidInput.push('seriesValue');
       }
 
